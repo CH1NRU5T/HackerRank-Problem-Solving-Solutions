@@ -1,6 +1,8 @@
 import java.util.*;
+
 public class Main {
   private static Scanner sc = new Scanner(System.in);
+
   private static int calculateFine(int count, int amount) {
     if (count < 0) {
       return 0;
@@ -8,6 +10,7 @@ public class Main {
       return amount * count;
     }
   }
+
   public static void main(String[] args) {
 
     int d1, m1, y1, d2, m2, y2;

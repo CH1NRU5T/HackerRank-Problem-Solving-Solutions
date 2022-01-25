@@ -1,6 +1,8 @@
 import java.util.*;
+
 public class Main {
   private static Scanner sc = new Scanner(System.in);
+
   public static void main(String[] args) {
     String str = sc.nextLine();
     long count = sc.nextLong();
@@ -13,7 +15,7 @@ public class Main {
     }
 
     long confirmedReps = (count / str.length());
-    int unconfirmedReps = (int)(count % str.length());
+    int unconfirmedReps = (int) (count % str.length());
 
     long answer = confirmedReps * numberOfA;
     if (unconfirmedReps != 0) {

@@ -1,15 +1,17 @@
 import java.util.*;
+
 public class Main {
   private static Scanner sc = new Scanner(System.in);
+
   public static void main(String[] args) {
     int count = sc.nextInt();
-    List < Integer > arr = new ArrayList < Integer > ();
+    List<Integer> arr = new ArrayList<Integer>();
 
     for (int i = 0; i < count; i++) {
       arr.add(sc.nextInt());
     }
 
-    List < Integer > ans = new ArrayList < Integer > ();
+    List<Integer> ans = new ArrayList<Integer>();
     while (arr.size() > 0) {
       int temp = arr.get(0);
       if (arr.indexOf(temp) != arr.lastIndexOf(temp)) {
