@@ -1,11 +1,6 @@
 import java.util.*;
 public class Main{
-
-    private static List<Integer> removeElement(List<Integer> arr, int n){
-        arr.remove(n);
-        return arr;
-    }
-
+    
     private static Scanner sc=new Scanner(System.in);
     public static void main(String[] args) {
         int count=sc.nextInt();
